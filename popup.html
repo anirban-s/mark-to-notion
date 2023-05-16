@@ -6,6 +6,15 @@
   </head>
   <body>
     <div class="container">
+      <div class="secret-container">
+        <span id="toggleSecret"
+          ><img src="key.svg" alt="Add Notion Key" title="Add Notion Key"
+        /></span>
+        <div id="secret-input">
+          <input id="secret" />
+        </div>
+      </div>
+
       <h2>Bookmark In Notion</h2>
       <div class="icons">
         <img src="twitter.png" />
@@ -15,7 +24,13 @@
       <h4>Paste URL:</h4>
       <div class="save-form">
         <textarea id="url"></textarea>
-        <input type="image" id="save-to-notion" src="icon48.png" />
+        <input
+          type="image"
+          id="save-to-notion"
+          src="icon48.png"
+          alt="Save Bookmark To Notion"
+          title="Click To Save Tweet"
+        />
       </div>
     </div>
   </body>

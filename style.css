@@ -54,3 +54,23 @@ input[type="image"] {
 input[type="image"]:active {
   transform: translateY(-5px);
 }
+
+.secret-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#secret {
+  width: 295px;
+  height: 25px;
+  border-radius: 5px;
+  border-color: orange;
+  color: gray;
+  margin: 0 5px 0 0;
+}
+
+#toggleSecret {
+  cursor: pointer;
+  margin: 5px 0 0 5px;
+}
