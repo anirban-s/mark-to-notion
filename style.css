@@ -1,0 +1,56 @@
+h2 {
+  display: flex;
+  justify-content: center;
+  color: orange;
+}
+
+h4 {
+  margin-left: 20px;
+}
+
+img {
+  height: 30px;
+}
+
+textarea {
+  margin: 0 20px 20px 20px;
+  width: 237px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.icons {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container {
+  border: 1px solid salmon;
+  border-radius: 5px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(213, 210, 130, 1) 0%,
+    rgba(0, 255, 226, 1) 100%
+  );
+}
+
+.save-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="image"] {
+  margin: 0 20px 20px 0;
+  border-radius: 5px;
+  box-shadow: 10px 10px 20px #aaaaaa;
+  cursor: pointer;
+  transform: translateY(-4px);
+}
+
+input[type="image"]:active {
+  transform: translateY(-5px);
+}
