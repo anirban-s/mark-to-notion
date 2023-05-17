@@ -77,7 +77,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     response = await response.json();
-    console.log(response);
     return response.results.length > 0;
   }
 
@@ -165,8 +164,14 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function getTwitterHandler(url) {
-    let name = url.split("/")[3];
-    return "@" + name;
+    const urlParts = url.split("/");
+    let handle = "";
+    if (urlParts[2] === "twitter.com" && urlParts[3]) {
+      handle = "@" + urlParts[3];
+    } else {
+      handle = "Other WebSite";
+    }
+    return handle;
   }
 
   async function main(url) {
