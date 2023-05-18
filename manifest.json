@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Mark To Notion",
   "version": "0.0.0.1",
-  "description": "This extension save to Notion!",
+  "description": "This extension saves Tweet to Notion page!",
   "icons": {
     "128": "icon128.png",
     "48": "icon48.png",
